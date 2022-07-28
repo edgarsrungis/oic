@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="employee">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hire_date" type="xs:string" />
+        <xs:element name="business_group_id" type="xs:unsignedByte" />
+        <xs:element name="last_name" type="xs:string" />
+        <xs:element name="sex" type="xs:string" />
+        <xs:element name="person_type_id" type="xs:unsignedByte" />
+        <xs:element name="per_comments" />
+        <xs:element name="date_employee_data_verified" />
+        <xs:element name="date_of_birth" type="xs:string" />
+        <xs:element name="email_address" />
+        <xs:element name="employee_number" type="xs:unsignedShort" />
+        <xs:element name="expense_check_send_to_addres" />
+        <xs:element name="first_name" type="xs:string" />
+        <xs:element name="known_as" />
+        <xs:element name="marital_status" />
+        <xs:element name="middle_names" />
+        <xs:element name="nationality" />
+        <xs:element name="national_identifier" type="xs:string" />
+        <xs:element name="previous_last_name" />
+        <xs:element name="registered_disabled_flag" />
+        <xs:element name="title" />
+        <xs:element name="vendor_id" />
+        <xs:element name="work_telephone" />
+        <xs:element name="attribute_category" />
+        <xs:element name="attribute1" />
+        <xs:element name="attribute2" />
+        <xs:element name="attribute3" />
+        <xs:element name="attribute4" />
+        <xs:element name="attribute5" />
+        <xs:element name="attribute6" />
+        <xs:element name="attribute7" />
+        <xs:element name="attribute8" />
+        <xs:element name="attribute9" />
+        <xs:element name="attribute10" />
+        <xs:element name="attribute11" />
+        <xs:element name="attribute12" />
+        <xs:element name="attribute13" />
+        <xs:element name="attribute14" />
+        <xs:element name="attribute15" />
+        <xs:element name="attribute16" />
+        <xs:element name="attribute17" />
+        <xs:element name="attribute18" />
+        <xs:element name="attribute19" />
+        <xs:element name="attribute20" />
+        <xs:element name="attribute21" />
+        <xs:element name="attribute22" />
+        <xs:element name="attribute23" />
+        <xs:element name="attribute24" />
+        <xs:element name="attribute25" />
+        <xs:element name="attribute26" />
+        <xs:element name="attribute27" />
+        <xs:element name="attribute28" />
+        <xs:element name="attribute29" />
+        <xs:element name="attribute30" />
+        <xs:element name="per_information_category" type="xs:string" />
+        <xs:element name="per_information1" />
+        <xs:element name="per_information2" />
+        <xs:element name="per_information3" />
+        <xs:element name="per_information4" />
+        <xs:element name="per_information5" />
+        <xs:element name="per_information6" />
+        <xs:element name="per_information7" type="xs:string" />
+        <xs:element name="per_information8" />
+        <xs:element name="per_information9" />
+        <xs:element name="per_information10" />
+        <xs:element name="per_information11" />
+        <xs:element name="per_information12" />
+        <xs:element name="per_information13" />
+        <xs:element name="per_information14" />
+        <xs:element name="per_information15" />
+        <xs:element name="per_information16" />
+        <xs:element name="per_information17" />
+        <xs:element name="per_information18" />
+        <xs:element name="per_information19" />
+        <xs:element name="per_information20" />
+        <xs:element name="per_information21" />
+        <xs:element name="per_information22" />
+        <xs:element name="per_information23" />
+        <xs:element name="per_information24" />
+        <xs:element name="per_information25" />
+        <xs:element name="per_information26" />
+        <xs:element name="per_information27" />
+        <xs:element name="per_information28" />
+        <xs:element name="per_information29" />
+        <xs:element name="per_information30" />
+        <xs:element name="date_of_death" />
+        <xs:element name="background_check_status" type="xs:string" />
+        <xs:element name="background_date_check" />
+        <xs:element name="blood_type" />
+        <xs:element name="correspondence_language" />
+        <xs:element name="fast_path_employee" />
+        <xs:element name="fte_capacity" />
+        <xs:element name="honors" />
+        <xs:element name="internal_location" />
+        <xs:element name="last_medical_test_by" />
+        <xs:element name="last_medical_test_date" />
+        <xs:element name="mailstop" />
+        <xs:element name="office_number" />
+        <xs:element name="on_military_service" type="xs:string" />
+        <xs:element name="pre_name_adjunct" />
+        <xs:element name="rehire_recommendation" />
+        <xs:element name="projected_start_date" />
+        <xs:element name="resume_exists" type="xs:string" />
+        <xs:element name="resume_last_updated" />
+        <xs:element name="second_passport_exists" type="xs:string" />
+        <xs:element name="student_status" />
+        <xs:element name="work_schedule" />
+        <xs:element name="suffix" />
+        <xs:element name="benefit_group_id" />
+        <xs:element name="receipt_of_death_cert_date" />
+        <xs:element name="coord_ben_med_pln_no" />
+        <xs:element name="coord_ben_no_cvg_flag" type="xs:string" />
+        <xs:element name="coord_ben_med_ext_er" />
+        <xs:element name="coord_ben_med_pl_name" />
+        <xs:element name="coord_ben_med_insr_crr_name" />
+        <xs:element name="coord_ben_med_insr_crr_ident" />
+        <xs:element name="coord_ben_med_cvg_strt_dt" />
+        <xs:element name="coord_ben_med_cvg_end_dt" />
+        <xs:element name="uses_tobacco_flag" />
+        <xs:element name="dpdnt_adoption_date" />
+        <xs:element name="dpdnt_vlntry_svce_flag" type="xs:string" />
+        <xs:element name="original_date_of_hire" type="xs:string" />
+        <xs:element name="adjusted_svc_date" />
+        <xs:element name="person_id" type="xs:unsignedShort" />
+        <xs:element name="assignment_id" />
+        <xs:element name="per_object_version_number" type="xs:unsignedByte" />
+        <xs:element name="asg_object_version_number" />
+        <xs:element name="per_effective_start_date" type="xs:string" />
+        <xs:element name="per_effective_end_date" type="xs:string" />
+        <xs:element name="full_name" type="xs:string" />
+        <xs:element name="per_comment_id" />
+        <xs:element name="assignment_sequence" />
+        <xs:element name="assignment_number" />
+        <xs:element name="town_of_birth" />
+        <xs:element name="region_of_birth" />
+        <xs:element name="country_of_birth" />
+        <xs:element name="global_person_id" />
+        <xs:element name="party_id" />
+        <xs:element name="name_combination_warning" type="xs:string" />
+        <xs:element name="assign_payroll_warning" type="xs:string" />
+        <xs:element name="orig_hire_warning" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
